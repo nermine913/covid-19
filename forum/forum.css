@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    font-family: 'Josefin Sans';
+}
+body{
+    background-image: url('../image/doctor.jpg');
+    background-color: rgba(0, 0, 0, 0.6);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-blend-mode:color-dodge;
+   
+}
+
+.back{
+   
+    border-radius: 5%;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    width: 900px;
+    margin-left: 150px;
+}
+.card{
+   
+   height: 200px;
+   width: 900px;
+  margin-left: 150px;
+}
+
+.form-group{
+    
+    
+    width: 900px;
+   margin-left: 150px;
+}
+
+.btnn {
+    background-color: #ED3A46;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 20px;
+	float: right;
+}
+
+.btnn:hover {
+    background-color:#4C0AE0;
+    color: #ffffff;
+}
+.form-control1{
+    width: 670px;
+}
+.btnt {
+    background-color: #ED3A46;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    
+    text-align: center;
+    font-size: 20px;
+	margin-left: 5px;
+}
+
+.btnt:hover {
+    background-color:#4C0AE0;
+    color: #ffffff;
+}
+
+.card-header:hover{
+    background-color:#ED3A46;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+}
+.card-header{
+    background-color:#4C0AE0;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+a {
+   
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.card-body{
+    background-color: #e6e6e6;
+}
+
+

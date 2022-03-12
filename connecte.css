@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+ background-color: #4C0AE0;
+
+ 
+ font-family: 'Josefin Sans';
+    min-height: 100vh;
+    width: 100vw;
+ 
+
+}
+nav{
+    width: 100%;
+    height: 75px;
+    background-color: #E6E6E6 ;
+    line-height: 75px;
+    padding: 0px 80px;
+    font-weight: 500;
+
+
+}
+nav .logo{
+    float: left;
+}
+
+nav ul{
+    float: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    
+    color: #1A0F54;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 0px 20px;
+    letter-spacing: 1px;
+    font-weight:400;
+
+}
+nav ul li a:hover{
+    color: #ED3A46;
+    text-decoration: none;
+}
+nav ul .active{
+    color: #ED3A46;
+}
+nav.black ul{
+    background: #ebe9e9;
+    box-shadow: #1A0F54;
+}
+nav ul .btn {
+    background-color: #4C0AE0;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  nav ul .btn:hover {
+    background-color: #ED3A46;
+    color: #ffffff;
+  }
+  .checkbtn{
+      color: #ED3A46;
+      font-size: 25px;
+      cursor: pointer;
+      float: right;
+      display:none;
+
+  }
+  #check{
+      display: none;
+  }
+  @media  screen and (max-width:990px) {
+      nav{
+          padding:0px 50px;
+
+      }
+      .checkbtn{
+          display: block;
+      }
+      nav .logo p{
+          font-size: 30px;
+
+      }
+      nav ul{
+          width:100%;
+          height: 100vh;
+          background-color: #1A0F54;
+          opacity: inherit;
+          position:fixed;
+          top:75px;
+          left:-100%;
+          text-align: center;
+          transition: 0.4s ease;
+
+      }
+      nav ul li{
+          display: block;
+          margin: 60px 0px;
+          line-height:20px;
+          
+
+      }
+      nav ul li a{
+        color:#ffffff;
+        text-decoration: none;
+    }
+      nav ul li a:hover{
+        color:#ED3A46;
+        text-decoration: none;
+    }
+    nav ul .active{
+        color:#ED3A46;
+    }
+      #check:checked ~ ul{
+          left:0;
+      }
+      
+  
+}
+.page {
+	justify-content: center;
+	text-align: center;
+    font-family: 'Josefin Sans';
+	
+
+}
+.btn {
+    background-color: #4C0AE0;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 18px;
+	padding-left: 50px;
+	margin-left: 40px;
+	padding-right: 50px;
+	margin-right: 50px; 
+  }
+  
+ .btn:hover {
+    background-color: #ED3A46;
+    color: #ffffff;
+  }
+h1{
+	color: #1A0F54;
+	
+	font-style: oblique;
+	font-size: xxlarge;
+	text-align: center;
+}
+
+.globe {
+	background-color: #FFFFFF;
+	text-align: center;
+	margin-top:80px;
+	margin-bottom: 20px;
+	padding: 40px 60px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	height: 550px;
+	width: 400px;
+	margin-left: 550px;
+}
+
+.input {
+	border: none;
+	display: flex;
+	border-radius: 5px;
+	background-color:#f2f2f2 ;
+    padding: 20px ;
+}
+
+
